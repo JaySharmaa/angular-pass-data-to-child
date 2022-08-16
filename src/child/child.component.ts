@@ -8,8 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ChildComponent implements OnInit {
 
   constructor() { }
-@Input() item = ""
-value =""
+  @Input() item = ""
+  value =""
   ngOnInit() {
   }
 
